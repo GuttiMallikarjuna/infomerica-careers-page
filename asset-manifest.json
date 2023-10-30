@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/infomerica-careers-page/static/css/main.54954944.css",
-    "main.js": "/infomerica-careers-page/static/js/main.75244595.js",
+    "main.css": "/infomerica-careers-page/static/css/main.25e11a25.css",
+    "main.js": "/infomerica-careers-page/static/js/main.a294063d.js",
     "index.html": "/infomerica-careers-page/index.html",
-    "main.54954944.css.map": "/infomerica-careers-page/static/css/main.54954944.css.map",
-    "main.75244595.js.map": "/infomerica-careers-page/static/js/main.75244595.js.map"
+    "main.25e11a25.css.map": "/infomerica-careers-page/static/css/main.25e11a25.css.map",
+    "main.a294063d.js.map": "/infomerica-careers-page/static/js/main.a294063d.js.map"
   },
   "entrypoints": [
-    "static/css/main.54954944.css",
-    "static/js/main.75244595.js"
+    "static/css/main.25e11a25.css",
+    "static/js/main.a294063d.js"
   ]
 }
