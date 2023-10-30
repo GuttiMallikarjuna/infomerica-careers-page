@@ -1,0 +1,174 @@
+body{
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+footer {
+  width: 100%;
+  background-color: #333;
+  color:#fff;
+  padding: 10px;
+}
+
+.introdiv, .navbar{
+  padding: 10px 150px 10px 150px;
+}
+#border1{
+  border-bottom: 8px solid #FE0000 !important;
+  border-radius: 10px !important;
+}
+.cropenings{
+  margin: 50px 0px 50px 0px;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+.careershead{
+  margin: 30px 0px 30px 0px;
+}
+.border2{
+  min-width: 33%;
+  margin:10px 20px 20px 10px !important;
+}
+.footer1{
+  background-color: #E8E8E8;
+  padding: 50px 100px 40px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nasscom,.keylinks,.getintouch,.followus{
+  width: 20%;
+}
+
+.facebookimg, .youtubeimg,.linkedinimg{
+  height: 40px;
+  margin-right: 13px;
+  transition: transform 0.8s;
+  cursor: pointer;
+}
+.facebookimg:hover,.youtubeimg:hover,.linkedinimg:hover {
+  transform: rotate(360deg);
+}
+.keylinks hr{
+  margin-top: 3px;
+  color: rgb(12, 112, 111);
+}
+.keylinks a{
+  color: rgb(119, 116, 116);
+  text-decoration: none;
+}
+.nasscom p,.getintouch p{
+  color: rgb(119, 116, 116);
+}
+.keylinks a:hover{
+  color: rgb(214, 164, 13);
+}
+.toggle{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 35px;
+  padding: 5px;
+  background-color: #E8E8E8;
+  color: #FE0000;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.careersbannermobile{
+  display: none;
+}
+.tablediv{
+  overflow-x: auto;
+  margin: 60px 0px 20px 0px;
+}
+.tablediv h4{
+  margin: 5px 5px 25px 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-image: url("https://media.graphassets.com/vWrjVsbfSWKn7xVYppJA");
+  background-size: cover;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  min-width: 100px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.hyddiv,.bangdiv,.usdiv{
+  display: none;
+}
+#ds,#ui,#aws,#md,#aa,#dga{
+  background-color: rgb(93, 179, 228);
+  height: 40px;
+  width: 100px;
+  font-size: 14px;
+}
+.linksdiv2{
+  margin-left: 30px;
+}
+.offcanvas{
+  background-color: #75ACD5;
+  color: white;
+}
+.offcanvas-body a{
+  font-weight:bold;
+}
+.offcanvas-body a:hover, .navmenu span:hover,.nav-item .nav-link:hover{
+  color: #FE0000;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:884px){
+ 
+  .introdiv, .navbar{
+    padding: 15px;
+  }
+  .openingsmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .hyd,.bang{
+    width: 200px;
+  }
+ .navmenu span,.careersbanner{
+    display: none;
+  }
+  .careersbannermobile{
+    display: block;
+  }
+ .topTwo,.bottomTwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .footer1{
+  padding: 50px 15px 40px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.nasscom,.keylinks,.getintouch,.followus{
+  width: 100%;
+  margin: 5px;
+}
+.linksdiv{
+  display: flex;
+  flex-direction: column;
+}
+.linksdiv2{
+  margin-left: 0px;
+}
+.offcanvas{
+  max-width: 300px;
+}
+}
